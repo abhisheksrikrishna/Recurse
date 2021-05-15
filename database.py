@@ -1,5 +1,5 @@
 import pymongo
-conn = pymongo.MongoClient("mongodb://localhost:27017/")
+conn = pymongo.MongoClient("mongodb+srv://Recurseform:Recurseform@cluster0.arok8.mongodb.net/test")
 mydb = conn["Data"]
 mycol = mydb["Appcode"]
 mycol = mydb["Answerq1"]

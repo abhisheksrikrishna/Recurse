@@ -3,7 +3,7 @@ import pymongo
 from flask import Flask,request,render_template
 import requests
 app = Flask(__name__)
-entries = pymongo.MongoClient("mongodb://8898e7ca5a76.ngrok.io/")
+entries = pymongo.MongoClient("mongodb+srv://Recurseform:recurseform@cluster0.arok8.mongodb.net/test")
 mydb = entries["Appcode"]
 mycol2 = mydb["Answerq1"]
 
