@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+    img {
+  border: 5px solid #555;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+  </style>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src=".\recurse.jpg" alt="" width="150" height="80" class="d-inline-block align-text-top">
+          </a>
+          
+        </div>
+        <div class="nav navbar-nav navbar-center">
+          <b>ALL THE BEST!!</b>
+        </div>
+        
+      </nav>
+    <div class="container">
+
+        <form method="POST">
+            <div class="my-3">
+                <h3>Test</h3>
+              <label for="Appcode" class="form-label">Application code</label>
+              <input type="text" class="form-control" name="Appcode" aria-describedby="recurse gives you the code" required>
+              <div id="emailHelp" class="form-text">Enter your Recurse application code</div>
+              <br><br>
+
+
+              <div class="form-group row">
+                <label for="ques1" class="col-sm-2 col-form-label"><b>Question 1</b></label>
+                <div class="col-sm-10 ">
+                    <input type="text" readonly class="form-control-plaintext" id="ques1" value="If 6 years are subtracted from the present age of Vijay and the remainder is divided by 18, the present age of Vishal is obtained. If Vishal is 2 years younger to Denis whose age is 5years, then what is Vijay's present age?">
+                    A) 50<br>
+                    B) 60<br>
+                    C) 55<br>
+                    D) 62<br>
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq1" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq1" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques2" class="col-sm-2 col-form-label"><b>Question 2</b></label>
+                <div class="col-sm-10 ">
+                    <input type="text" readonly class="form-control-plaintext" id="ques2" value="Neha travelled from a point X straight to point Y at a distance of 50 meters. He turned to his right and walks 50 meters more, then again turned right and walks 60 meters. Finally, he turned to right and walks 50 meters. How far is he from the starting point?">
+                    A) 50<br>
+                    B) 20<br>
+                    C) 10<br>
+                    D) 30<br>
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq2" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq2" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques3" class="col-sm-2 col-form-label"><b>Question 3</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques3" value="Four of the following five are alike in a certain way and so form a group. Which is the one that does not belong to that group?">
+                    A) Urea<br>
+                    B) Potash<br> 
+                    C) Nitrogen<br> 
+                    D) Manure<br> 
+                    E) Ammonia<br> 
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq3" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq3" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques4" class="col-sm-2 col-form-label"><b>Question 4</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques4" value="Some boys are sitting in three rows all facing North such that A is in the middle row. P is just to the right of A but in the same row. Q is just behind of P while R is in the North of A. In which direction of R is Q?">
+                    A) South - East<br> 
+                    B) South – West<br>
+                    C) North – East<br> 
+                    D) None of these<br> 
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq4" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq4" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques5" class="col-sm-2 col-form-label"><b>Question 5</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques5" value="Seven persons P, Q, R, S, T, U and V belong to the same family. There are two couples in the family.  Parents of all children are alive. R is sister of Q. T is brother of U. P is father of U. V is mother of Q. S is mother-in-law of V. U is a female. How is Q related to T?">
+                    A) Son<br> 
+                    B) Daughter<br>
+                    C) Nephew<br> 
+                    D) Niece<br>
+                    E) Can't be determined<br>  
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq5" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq5" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques6" class="col-sm-2 col-form-label"><b>Question 6</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques6" value="A bag consists of the following contents - 4 white, 5 red and 6 blue balls. From the bag, three balls are drawn at random. What would be the probability that all of them are red, is:">
+
+                    A) 2/91<br>
+                    B) 1/22<br> 
+                    C) 3/22<br> 
+                    D) 2/77<br> 
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq6" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq6" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques7" class="col-sm-2 col-form-label"><b>Question 7</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques7" value="Two dice are tossed. The probability that the total score is a prime number is: ">
+                    A) 5/12<br>
+                    B) 7/18<br> 
+                    C) 1/2<br> 
+                    D) 6/18<br> 
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq7" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq7" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              
+             
+
+              <div class="form-group row">
+                <label for="ques8" class="col-sm-2 col-form-label"><b>Question 8</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques8" value="From a well shuffled pack which consists of 52 cards, out of randomness, two cards are drawn together. What would be the chance that both the cards turning out to be kings? ">
+
+                    A) 2/52<br>
+                    B) 4/52<br> 
+                    C) 1/221<br> 
+                    D) 35/256<br> 
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq8" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq8" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques9" class="col-sm-2 col-form-label"><b>Question 9</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques9" value="In a construction company, B, A and C can do a piece of work in 30 days, 24 days and 40 days respectively. They began the work together but due to pandemic, C left 4 days before the completion of the work, but B, A stayed back to complete the work. In how many days was the work completed?">
+
+                    A) 11 Days<br> 
+                    B) 12 Days<br> 
+                    C) 13 Days<br> 
+                    D) 14 Days<br>
+              
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq9" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq9" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques10" class="col-sm-2 col-form-label"><b>Question 10</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques10" value=" Pointing to Pooja in the photograph, Gita said, “Her daughter's father is son-in-law of my mother.” How is Gita related to Pooja ?">
+
+                    A) Mother<br> 
+                    B) Aunt<br> 
+                    C) Sister<br> 
+                    D) Daughter in law<br>
+                    E) None of these<br>
+ 
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq10" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq10" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques11" class="col-sm-2 col-form-label"><b>Question 11</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques11" value=" A student multiplied a number by 3/5 instead of 5/3, What is the percentage error in the calculation ? ">
+
+
+                    A) 54%<br> 
+                    B) 64%<br> 
+                    C) 74%<br> 
+                    D) 84%<br> 
+  
+ 
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq11" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq11" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques12" class="col-sm-2 col-form-label"><b>Question 12</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques12" value=" Find the odd man out.742,743,633,853,871,990,532742,743,633,853,871,990,532">
+
+
+                    A) 990<br>
+                    B) 663<br>
+                    C) 742<br> 
+                    D) 532<br> 
+  
+ 
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq12" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq12" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques13" class="col-sm-2 col-form-label"><b>Question 13</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques13" value="The average of 7 consecutive numbers is 20. The largest of these numbers is : ">
+
+                    A) 21<br>
+                    B) 22<br>
+                    C) 23<br>
+                    D) 24<br> 
+ 
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq13" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq13" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+        
+
+              <div class="form-group row">
+                <label for="ques14" class="col-sm-2 col-form-label"><b>Question 14</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques14" value="A bead seller arranged some beads in multi-layer box. The first layer of the box was square shaped with 4 rows and 6 columns. Each layer was 1 less in each dimension of the previous layer. What will be the maximum number of beads that could have been in the third layer from the first?">
+
+                    A) 16<br> 
+                    B) 8<br> 
+                    C) 94<br> 
+                    D) 7<br>
+ 
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq14" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq14" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="ques15" class="col-sm-2 col-form-label"><b>Question 15</b></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="ques15" value="The last day of a century cannot be">
+
+
+                    A) Monday<br>     	
+                    B) Wednesday<br>  
+                    C) Tuesday<br>   	
+                    D) Friday<br>
+
+ 
+
+
+                </div>
+            </div>
+            <div class="my-3 row">
+                <label for="Answerq15" class="col-sm-2 col-form-label"><b>Enter your option</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="Answerq15" placeholder="Please enter the option in Uppercase">
+                </div>
+              </div>
+             
+
+
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" oninvalid="alert('Please check if all the options are in Uppercase');" required>
+              <label class="form-check-label" for="exampleCheck1"> Agree to terms and conditions</label>
+            </div>
+            <button type="submit" class="btn btn-primary" >Submit</button>
+          </form>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

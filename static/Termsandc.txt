@@ -1,0 +1,8 @@
+This is the quiz page for Recure,KMIT
+1.This quiz will be used for recruitments
+2.Answer the questions in the text-box given below in "Upper case"
+3.We are not responsible to give you marks if you type the wrong option(in or out of Range)
+4.No multiple attempts will be allowed
+5.answer the questions in the given time frame
+6.Relax and give your best in the exam
+7.The whole club wishes all the students a best of luck for their online exam today :")
